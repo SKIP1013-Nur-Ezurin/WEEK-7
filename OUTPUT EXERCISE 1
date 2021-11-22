@@ -1,0 +1,14 @@
+Guess Your Number Game
+Enter number between 1 -10
+9
+Your guess is too High 
+Enter number between 1 -10
+6
+Your guess is too High 
+Enter number between 1 -10
+4
+Your Guess is too low! Try again 
+Enter number between 1 -10
+5
+Congrats, You Guess Correctly!
+Enter number between 1 -10
