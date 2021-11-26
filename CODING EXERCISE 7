@@ -1,0 +1,26 @@
+package exerciseLooping;
+import java.util.Scanner;
+public class pinBank3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		        Scanner input = new Scanner(System.in);
+		        int pin, pass , i = 1  ;
+		        System.out.println ("Please enter your PIN number : ");
+		        pin = input.nextInt();
+		        pass = 12345;
+		        if (pin == pass ) {
+		         System.out.println ("Access granted ");
+		        }else {
+		            for ( i = 1 ; i<= 3 ; i++) {
+		                System.out.println ("Please enter your PIN number : ");
+		                pin = input.nextInt();
+		            }
+		            System.out.println ("Invalid Card ");
+		        } 
+		    }
+		
+
+	}
+
+
