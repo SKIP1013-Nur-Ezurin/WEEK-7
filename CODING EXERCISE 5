@@ -1,0 +1,46 @@
+package exerciseLooping;
+
+import java.util.Scanner;
+
+public class pinBank1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* declare one password
+		 * guna scanner, client enter pass, sistem semak password
+		 * jika betul keluar loop
+		 * jika pswd salah, masukkan sekali lagi password
+		 * jika kali ketiga, keluar dari loop dan bagi mesej card is invalid
+		 */
+		
+		Scanner sc= new Scanner (System.in);
+        
+        int pass = 123456, i=1;
+        
+        System.out.println("Enter your password : ");
+        pass = sc.nextInt();
+        
+        if(pass==123456)
+            System.out.println("Welcome! You're in.");
+        
+        else {
+            do {
+            if (pass!=123456) {
+                System.out.println("Enter your password : ");
+                pass = sc.nextInt();
+            }
+            
+            i++;
+            }
+            while(i<3); 
+            
+            System.out.println("Invalid card!!!");
+        }	
+
+		   
+		    }
+		
+
+	}
+
+
