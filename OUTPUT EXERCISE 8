@@ -1,0 +1,15 @@
+CREATE YOUR OWN PASSWORD
+Terms and Conditions :
+1. A password must have at least eight characters.
+2. A password consists of only letters and digits.
+3. A password must contain at least two digits 
+Input a password (You are agreeing to the above Terms and Conditions.): 2131abcd
+Password is valid: 2131abcd
+
+CREATE YOUR OWN PASSWORD
+Terms and Conditions :
+1. A password must have at least eight characters.
+2. A password consists of only letters and digits.
+3. A password must contain at least two digits 
+Input a password (You are agreeing to the above Terms and Conditions.): KLKLLKL
+Not a valid password: KLKLLKL
